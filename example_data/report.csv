@@ -1,0 +1,4 @@
+Index,Name,Category,Result,Duration,Note
+1,Backlight Color,Display,PASS,2.1,
+2,Brightness,Display,FAIL,1.4,Value below threshold
+3,Backlight fade-in,Animation,FAIL,0.0,No fade detected

@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test Report</title>
+    <style>
+        table {border-collapse: collapse; width: 80%; margin: 20px;}
+        th, td {border: 1px solid black; padding: 8px; text-align: center;}
+        th {background-color: #f2f2f2;}
+        .PASS {background-color: #d4edda;}
+        .FAIL {background-color: #f8d7da;}
+    </style>
+</head>
+<body>
+
+<h2>Test Summary</h2>
+<p>Passed: 1</p>
+<p>Failed: 2</p>
+<p>Average Duration: 1.17</p>
+
+<h2>Test Cases</h2>
+<table>
+<tr>
+<th>#</th><th>Name</th><th>Category</th><th>Result</th><th>Duration</th><th>Note</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Backlight Color</td>
+<td>Display</td>
+<td class="PASS">PASS</td>
+<td>2.1</td>
+<td></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Brightness</td>
+<td>Display</td>
+<td class="FAIL">FAIL</td>
+<td>1.4</td>
+<td>Value below threshold</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Backlight fade-in</td>
+<td>Animation</td>
+<td class="FAIL">FAIL</td>
+<td>0.0</td>
+<td>No fade detected</td>
+</tr>
+
+</table>
+</body>
+</html>
