@@ -1,0 +1,26 @@
+[
+  {
+    "test_id": "BL-001",
+    "test_name": "Backlight Color",
+    "category": "Display",
+    "result": true,
+    "time_sec": 2.1,
+    "error": null
+  },
+  {
+    "test_id": "BR-014",
+    "test_name": "Brightness",
+    "category": "Display",
+    "result": false,
+    "time_sec": 1.4,
+    "error": "Value below threshold"
+  },
+  {
+    "test_id": "FI-002",
+    "test_name": "Backlight fade-in",
+    "category": "Animation",
+    "result": false,
+    "time_sec": 0.0,
+    "error": "No fade detected"
+  }
+]
